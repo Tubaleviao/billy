@@ -1,6 +1,6 @@
 # Billy
 
-![Billy](https://pbs.twimg.com/media/ENO3hT6XsCIu5Wj?format=jpg&name=900x900)
+![Billy](https://tuba.work/img/billy_card.jpg)
 
 This is the repository that holds the billy robot code. Billy is a robot that is running in a raspberry pi zero w board (for now).
 
