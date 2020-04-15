@@ -33,7 +33,7 @@ Now here are some challenges that I'll be facing if this campaign grow successfu
 * When I say smarter I mean: know how to avoid obstacles while walking, recognize objects, predict object's weight, know how to interact with different object shapes, balance the object's weight with itself weight while carrying it, recognizing animals, humans, memorizing their names and interacting with the environment (like doors or windows).
 * Make sure the code is well organized and easy to implement if done by other person.
 
-## Buying List
+## Buying List for Future Development
 * 10x Stall Torque (4.8v): 3.1kg/cm $11.95 servo link ($119.5)
 * Portable small 10000ma power bank link ($27.99)
 * 2x Ears (for guessing sound direction) link ($13.90)
