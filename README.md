@@ -13,14 +13,6 @@ The first priority is to help humans by doing mainly physical work like opening 
 
 I need to feed my cat when I'm traveling and I don't want to bother my neighbors.
 
-## Rough Numbers
-For adding arms, more sensors and a small power bank to Billy, I need to upgrade it's legs. To be sincere, I'm not quite sure about how much I need in total to make Billy a useful robot but I guess something around $900 would be enough:
-
-* Roughly speaking I'll need $150 for the legs, 150 for a stronger "brain", 200 for a branch of new sensors and 400 to make it human sized (please see buy list at the end).
-* I discovered a place where I can use some tools for building more parts, so I probably won't need to spend any more money buying tools.
-* All money that I receive from this campaign will be spent on Billy.
-* All money that trespass the goal will be spent on a brand new company that will build more Billy's.
-
 ## Future Ideas
 Here are some other benefits that Billy could give us:
 
@@ -40,11 +32,6 @@ Now here are some challenges that I'll be facing if this campaign grow successfu
 * Create and train a deep learning neural network to make Billy smarter.
 * When I say smarter I mean: know how to avoid obstacles while walking, recognize objects, predict object's weight, know how to interact with different object shapes, balance the object's weight with itself weight while carrying it, recognizing animals, humans, memorizing their names and interacting with the environment (like doors or windows).
 * Make sure the code is well organized and easy to implement if done by other person.
-
-## Other Ways You Can Help
-
-* If you are a developer and you know javascript, you can help me with the code! I'll be posting it on github shortly, so just stay tuned (https://github.com/tubaleviao).
-* Also be free to provide any information or suggestion about different materials I can use to build the robot body (I'm using flatten wood sticks) or library, language, framework, new technology or even different robot designs. Any extra information may help.
 
 ## Buying List
 * 10x Stall Torque (4.8v): 3.1kg/cm $11.95 servo link ($119.5)
