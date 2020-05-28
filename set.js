@@ -1,3 +1,10 @@
-const gpio = require('pigpio').Gpio
-right = new gpio(2, {mode: gpio.OUTPUT})
-right.servoWrite(500)
+const gpio = require("pigpio").Gpio
+
+const pin = Number(process.argv[2])
+const value = Number(process.argv[3])
+
+const servo = new gpio(pin, {mode: gpio.OUTPUT})
+
+servo.servoWrite(value)
+
+setTimeout(() => console.log("he"), 2000)

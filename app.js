@@ -4,11 +4,11 @@ let mode = {mode: gpio.OUTPUT}
 let max = 2500 // max angle: 2500
 let min = 500 // min angle: 500
 
-const right_feet = {pin: 2, lib: new gpio(2, mode), position: 1400, default: 1400}
+const right_feet = {pin: 2, lib: new gpio(2, mode), position: 1500, default: 1500}
 const right_knee = {pin: 3, lib: new gpio(3, mode), position: 600, default: 600}
 const right_thigh = {pin: 4, lib: new gpio(4, mode), position: 1600, default: 1600}
 const right_hip = {pin: 5, lib: new gpio(5, mode), position: 1400, default: 1400}
-const left_feet = {pin: 6, lib: new gpio(6, mode), position: 1550, default: 1550}
+const left_feet = {pin: 6, lib: new gpio(6, mode), position: 1500, default: 1500}
 const left_knee = {pin: 7, lib: new gpio(7, mode), position: 2400, default: 2400}
 const left_thigh = {pin: 8, lib: new gpio(8, mode), position: 1500, default: 1500}
 const left_hip = {pin: 9, lib: new gpio(9, mode), position: 1700, default: 1700}
