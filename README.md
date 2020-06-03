@@ -44,3 +44,5 @@ Now here are some challenges that I'll be facing if this campaign grow successfu
 * (big version) material for robot body (?)
 
 Any help is appreciated :beer: 
+
+![Squat2](https://tuba.work/img/billy4.gif) ![Squat1](https://tuba.work/img/billy1.gif)
