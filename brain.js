@@ -13,13 +13,14 @@ class Body{
 		this.setPose(defaultPosition)
 	}
 
-	setPose(positions){
-		posistions.forEach( p => members[p.pin].position = p.position)
-		this.move()
+	setPose(position){
+		position.forEach( p => members[p.pin].pulse = p.pulse)
+		this.instantMove()
 	}
 
-	move() { members.forEach(m => m.lib.servoWrite(m.position)) }
+	instantMove() { members.forEach(m => m.lib.servoWrite(m.pulse)) }
 }
 
 const body = new Body(positions.standing)
 
+setTimeout(() => body.setPose(positions.crouched), 3000)

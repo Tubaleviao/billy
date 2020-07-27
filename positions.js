@@ -1,14 +1,29 @@
 
-const standing = [{pin: 2, position: 1400},
-{pin: 3, position: 600},
-{pin: 4, position: 1600},
-{pin: 5, position: 1400},
-{pin: 6, position: 1550},
-{pin: 7, position: 2400},
-{pin: 8, position: 1500},
-{pin: 9, position: 1700},
-{pin: 10, position: 1400},
-{pin: 11, position: 1900}]
+const standing = [
+    {pin: 2, pulse: 1500},
+    {pin: 3, pulse: 600},
+    {pin: 4, pulse: 1600},
+    {pin: 5, pulse: 1400},
+    {pin: 6, pulse: 1500},
+    {pin: 7, pulse: 2400},
+    {pin: 8, pulse: 1500},
+    {pin: 9, pulse: 1700},
+    {pin: 10, pulse: 1400},
+    {pin: 11, pulse: 1900}
+]
 
-module.exports = { standing }
+const crouched = [
+    {pin: 2, pulse: 1500},
+    {pin: 3, pulse: 600},
+    {pin: 4, pulse: 1600},
+    {pin: 5, pulse: 1400},
+    {pin: 6, pulse: 1500},
+    {pin: 7, pulse: 2400},
+    {pin: 8, pulse: 1500},
+    {pin: 9, pulse: 1700},
+    {pin: 10, pulse: 1400},
+    {pin: 11, pulse: 1900}
+]
+
+module.exports = { standing, crouched }
 

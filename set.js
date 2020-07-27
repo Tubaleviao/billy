@@ -7,4 +7,3 @@ const servo = new gpio(pin, {mode: gpio.OUTPUT})
 
 servo.servoWrite(value)
 
-setTimeout(() => console.log("he"), 2000)
