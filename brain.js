@@ -8,7 +8,7 @@ class Body{
 
 	constructor(defaultPosition){
 		this.members = [2,3,4,5,6,7,8,9,10,11]
-		const newMember = p => ({pin: p, lib: (new gpio(p, {mode: gpio.OUTPUT})) })
+		const newMember = p => ( {pin: p, lib: (new gpio(p, {mode: gpio.OUTPUT})) } )
 		this.members = this.members.map( p => newMember(p))
 		this.setPose(defaultPosition)
 	}

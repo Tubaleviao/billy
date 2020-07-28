@@ -13,8 +13,8 @@ const standing = [
 ]
 
 const crouched = [
-    {pin: 2, pulse: 1900},
-    {pin: 3, pulse: 1700},
+    {pin: 2, pulse: 1850},
+    {pin: 3, pulse: 1650},
     {pin: 4, pulse: 560},
     {pin: 5, pulse: 1400},
     {pin: 6, pulse: 1250},
