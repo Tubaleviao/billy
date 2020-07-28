@@ -8,17 +8,17 @@ class Body{
 
 	constructor(defaultPosition){
 		this.members = [2,3,4,5,6,7,8,9,10,11]
-		const newMember = p => JSON.parse( {pin: p, lib: (new gpio(p, {mode: gpio.OUTPUT})) } )
+		const newMember = p => ({pin: p, lib: (new gpio(p, {mode: gpio.OUTPUT})) })
 		this.members = this.members.map( p => newMember(p))
 		this.setPose(defaultPosition)
 	}
 
 	setPose(position){
-		position.forEach( p => members[p.pin].pulse = p.pulse)
+		position.forEach( (p, i) => this.members[i].pulse = p.pulse)
 		this.instantMove()
 	}
 
-	instantMove() { members.forEach(m => m.lib.servoWrite(m.pulse)) }
+	instantMove() { this.members.forEach(m => m.lib.servoWrite(m.pulse)) }
 }
 
 const body = new Body(positions.standing)
