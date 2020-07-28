@@ -23,4 +23,5 @@ class Body{
 
 const body = new Body(positions.standing)
 
-setTimeout(() => body.setPose(positions.crouched), 3000)
+setTimeout(() => body.setPose(positions.crouched), 2000)
+setTimeout(() => {}, 2000)

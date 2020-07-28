@@ -1,25 +1,25 @@
 
 const standing = [
-    {pin: 2, pulse: 1500},
+    {pin: 2, pulse: 1450},
     {pin: 3, pulse: 600},
     {pin: 4, pulse: 1600},
     {pin: 5, pulse: 1400},
-    {pin: 6, pulse: 1500},
+    {pin: 6, pulse: 1650},
     {pin: 7, pulse: 2400},
     {pin: 8, pulse: 1500},
-    {pin: 9, pulse: 1700},
+    {pin: 9, pulse: 1800},
     {pin: 10, pulse: 1400},
     {pin: 11, pulse: 1900}
 ]
 
 const crouched = [
-    {pin: 2, pulse: 1500},
-    {pin: 3, pulse: 600},
-    {pin: 4, pulse: 1600},
+    {pin: 2, pulse: 1900},
+    {pin: 3, pulse: 1700},
+    {pin: 4, pulse: 560},
     {pin: 5, pulse: 1400},
-    {pin: 6, pulse: 1500},
-    {pin: 7, pulse: 2400},
-    {pin: 8, pulse: 1500},
+    {pin: 6, pulse: 1250},
+    {pin: 7, pulse: 1300},
+    {pin: 8, pulse: 2500},
     {pin: 9, pulse: 1700},
     {pin: 10, pulse: 1400},
     {pin: 11, pulse: 1900}
