@@ -34,13 +34,13 @@ Now here are some challenges that I'll be facing if this campaign grow successfu
 * Make sure the code is well organized and easy to implement if done by other person.
 
 ## Buying List for Future Development
-* 10x Stall Torque (4.8v): 3.1kg/cm $11.95 servo link ($119.5)
-* Portable small 10000ma power bank link ($27.99)
-* 2x Ears (for guessing sound direction) link ($13.90)
+* 10x Stall Torque (4.8v): 3.1kg/cm $11.95 servo ($119.5) https://www.adafruit.com/product/2307
+* Portable small 10000ma power bank ($27.99) https://www.amazon.com/gp/product/B07SK231QQ/
+* 2x Ears (for guessing sound direction) ($13.90) https://www.adafruit.com/product/1063
 * Accelerometer, passive buzzer, proximity sensor, pressure sensor (?)
-* (update) Charger facilitator link ($14.95)
-* Jetson nano link ($129)
-* (big version) 10x more powerful servo link ($199.5)
+* (update) Charger facilitator ($14.95) https://theproductgeeks.shop/products/idestructicable2-0
+* Jetson nano ($129) https://www.techrepublic.com/article/raspberry-pi-style-jetson-nano-is-a-powerful-low-cost-ai-computer-from-nvidia/
+* (big version) more powerful servo (10x $19) https://www.adafruit.com/product/1142
 * (big version) material for robot body (?)
 
 Any help is appreciated :beer: 
