@@ -1,4 +1,5 @@
 import json, asyncio
+from math import ceil, floor
 from adafruit_servokit import ServoKit
 
 class Move:
@@ -25,9 +26,19 @@ class Move:
 
 	async def parallel(self, servo, start, end):
 		direction = 1 if start < end else -1
-		for i in range(start, end, direction):
-			self.servo(servo).angle = i
-			await asyncio.sleep(0.005)
+		increment = round((start-end)/20) * direction
+		current = start
+		delay = 7
+		variance = 40
+		mid = ((end-start)/2)+ start
+		for i in range(start, end, increment):
+			nap = floor(delay+(variance*abs(1-(current/mid))))
+			if direction > 0:
+				current = current+i if current+i < end else end
+			else:
+				current = current+i if current+i > end else end
+			self.servo(servo).angle = current
+			await asyncio.sleep(nap/1000)
 
 	def servo(self, number):
 		return self.kit.servo[int(number)]
