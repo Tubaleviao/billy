@@ -16,11 +16,14 @@ I need to feed my cat when I'm traveling and I don't want to bother my neighbors
 ## Future Ideas
 Here are some other benefits that Billy could give us:
 
-* Bring cans or snacks from the kitchen.
-* Put your clothes in the washing machine.
+* Respond to voice commands.
+* Take pictures of you.
+* Squat down.
+* Walk.
 * If you are a developer, you could control Billy remotely through internet (as I do right now) and this could be a game changing if you travel constantly.
 * Write letters for you.
-* Take pictures of you.
+* Bring cans or snacks from the kitchen.
+* Put your clothes in the washing machine.
 
 ## Risks & Challenges
 As the same as every single device connected to the internet, Billy could be a target for many different kinds of cyber attacks, but as long as the default operational system is Linux and the owner doesn't change the default configuration, security shouldn't be a problem. Today is possible to make machines recognize someone's voice and only obey that specific voice and register tasks that can be done for any voice.
